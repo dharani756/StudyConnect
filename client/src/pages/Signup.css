@@ -1,0 +1,92 @@
+.signup-container {
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+
+}
+
+.signup-box {
+
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.2);
+
+}
+
+.signup-box h1 {
+
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+
+}
+
+.signup-box input,
+.signup-box select {
+
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+
+}
+
+.role-buttons {
+
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+
+}
+
+.role-buttons button {
+
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+.student-btn {
+
+  background-color: #4caf50;
+  color: white;
+
+}
+
+.mentor-btn {
+
+  background-color: #2196f3;
+  color: white;
+
+}
+
+.signup-btn {
+
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.signup-btn:hover {
+
+  background-color: black;
+
+}
